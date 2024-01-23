@@ -3,7 +3,7 @@ LABEL MAINTAINER mlabouardy
 
 WORKDIR /app 
 
-COPY requirements.txt .
+COPY requirements.txt ./
 
 RUN pip install -r requirements.txt
 
